@@ -55,6 +55,5 @@ app.get '/section/:id', section.getById
 app.post '/section', section.create
 app.get '/sections', section.findAll
 app.put '/section/:id', section.edit
-
 http.createServer(app).listen app.get('port'), ->
   console.log 'Express server listening on port ' + app.get('port')
