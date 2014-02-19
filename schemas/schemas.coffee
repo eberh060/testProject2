@@ -9,6 +9,8 @@ Section = new Schema(
   creditDrop: String
   gradeDrop: String
   formId: String
+  gradeField: String
+  creditField: String
 )
 
 GPASchema = new Schema(

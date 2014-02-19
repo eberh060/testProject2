@@ -45,6 +45,8 @@ populateDB = ->
       creditDrop: 'credit1'
       gradeDrop: 'grade1'
       formId: 'form1'
+      gradeField: 'A'
+      creditField: '1'
     },
     {
       title: 'Class 2'
@@ -52,6 +54,8 @@ populateDB = ->
       creditDrop: 'credit2'
       gradeDrop: 'grade2'
       formId: 'form2'
+      gradeField: 'A'
+      creditField: '1'
     },
     {
       title: 'Class 3'
@@ -59,6 +63,8 @@ populateDB = ->
       creditDrop: 'credit3'
       gradeDrop: 'grade3'
       formId: 'form3'
+      gradeField: 'A'
+      creditField: '1'
     },
     {
       title: 'Class 4'
@@ -66,6 +72,8 @@ populateDB = ->
       creditDrop: 'credit4'
       gradeDrop: 'grade4'
       formId: 'form4'
+      gradeField: 'A'
+      creditField: '1'
     },
     {
        title: 'Class 5'
@@ -73,6 +81,8 @@ populateDB = ->
       creditDrop: 'credit5'
       gradeDrop: 'grade5'
       formId: 'form5'
+      gradeField: 'A'
+      creditField: '1'
     }
 
   ]
