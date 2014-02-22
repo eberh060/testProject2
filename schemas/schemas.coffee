@@ -4,14 +4,26 @@ Schema = mongoose.Schema
 
 Section = new Schema(
   title: String
-  link: String
-  body: String
   category: String
   htmlId: String
+  creditDrop: String
+  gradeDrop: String
+  formId: String
+  gradeField: String
+  creditField: String
 )
 
+GPASchema = new Schema(
+  title: String
+  GPA: Number
+)
+
+
+
+
 Section = mongoose.model 'Section', Section
+GPA = mongoose.model 'GPA', GPASchema
 
 module.exports =
-  Section : Section
-
+  Section : Section,
+  GPA : GPA
